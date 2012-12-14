@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title> Background Pageのサンプル</title>
+  <script src="/js/jquery-1.8.3.min.js"></script>
+  <script src="/js/client.js"></script>
+</head>
+<body>
+<h1>Chrome extension</h1>
+<h2>background page :: reverse echo</h2>
+
+<form action="#">
+  <input type="text" id="message" />
+  <input type="submit" />
+</form>
+<div id="status">
+  <p id="inputIsEmpty" style="display: none;">Input is Empty</p>
+</div>
+<table>
+  <tr>
+    <th width="300">send</th>
+    <th width="300">received</th>
+  </tr>
+  <tr>
+    <td id="sendMsg">
+    </td>
+    <td id="receivedMsg">
+      </td>
+  </tr>
+</body>
+</html>
